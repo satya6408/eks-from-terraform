@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Private keys
+*.pem
+*.key
